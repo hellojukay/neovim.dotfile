@@ -1,5 +1,5 @@
 
-local cmp = require'cmp'
+local cmp = require('cmp')
 
 cmp.setup({
     snippet = {
@@ -58,3 +58,4 @@ require('lspconfig')['pyright'].setup {
 require('lspconfig')['gopls'].setup{}
 -- 需要安装 https://metacpan.org/pod/PLS
 require'lspconfig'.perlpls.setup{}
+require'lspconfig'.tsserver.setup{}
