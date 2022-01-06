@@ -7,7 +7,7 @@ require('nvim-tree').setup {
         width = 30,
         height = 30,
         side = 'left',
-        auto_resize = false,
+        auto_resize = true,
         number = false,
         relativenumber = false,
     	signcolumn = "yes",
