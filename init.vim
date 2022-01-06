@@ -6,6 +6,9 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
+
 " For vsnip users.
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
@@ -13,8 +16,10 @@ Plug 'hrsh7th/vim-vsnip'
 call plug#end()
 " 基础设置
 lua require('lsp')
-" Packer插件管理
+lua require('tree')
 "
+let mapleader = " "
+let nmapleader = " "
 "显示行号"
 set number
 "语法高亮"
