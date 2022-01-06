@@ -9,6 +9,8 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 
+Plug 'mhartington/formatter.nvim'
+
 " For vsnip users.
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
@@ -17,6 +19,7 @@ call plug#end()
 " 基础设置
 lua require('lsp')
 lua require('tree')
+lua require('format')
 "
 let mapleader = " "
 let nmapleader = " "
@@ -58,4 +61,5 @@ nnoremap <leader>r :source $MYVIMRC<CR>
 nnoremap <C-j> :belowright terminal<CR>
 "esc 关闭搜索高亮
 nnoremap <leader>c :nohlsearch<CR><esc>
-set completeopt=menu,menuone
+" 格式化
+nnoremap <silent> <leader>f :Format<CR>

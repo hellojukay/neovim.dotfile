@@ -59,3 +59,5 @@ require('lspconfig')['gopls'].setup{}
 -- 需要安装 https://metacpan.org/pod/PLS
 require'lspconfig'.perlpls.setup{}
 require'lspconfig'.tsserver.setup{}
+-- 需要 npm install -g ocaml-language-server
+require'lspconfig'.ocamlls.setup{}
