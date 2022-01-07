@@ -29,6 +29,15 @@ require('formatter').setup({
           stdin = true,
         }
       end
+    },
+    go = {
+        function()
+            return {
+                exe = "goimports",
+                args = { '--' },
+                stdin = true,
+            }
+        end
     }
   }
   }
