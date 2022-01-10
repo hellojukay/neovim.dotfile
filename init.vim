@@ -63,4 +63,4 @@ nnoremap <C-j> :belowright terminal<CR>
 nnoremap <leader>c :nohlsearch<CR><esc>
 " 格式化
 nnoremap <silent> <leader>f :Format<CR>
-
+let g:UltiSnipsSnippetDirectories = ['my_snippets']

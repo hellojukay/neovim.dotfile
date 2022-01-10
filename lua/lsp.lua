@@ -6,9 +6,6 @@ cmp.setup({
         expand = function(args)
           vim.fn["UltiSnips#Anon"](args.body)
         end,
-        sources = {
-            { name = 'my_snippets'},
-        }
     },
     mapping = {
         ['<C-b>'] = cmp.mapping(cmp.mapping.scroll_docs(-4), { 'i', 'c' }),
