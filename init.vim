@@ -9,11 +9,10 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 
-Plug 'mhartington/formatter.nvim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
-" For vsnip users.
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
+Plug 'mhartington/formatter.nvim'
 
 call plug#end()
 " 基础设置
@@ -63,3 +62,4 @@ nnoremap <C-j> :belowright terminal<CR>
 nnoremap <leader>c :nohlsearch<CR><esc>
 " 格式化
 nnoremap <silent> <leader>f :Format<CR>
+
