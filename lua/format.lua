@@ -39,6 +39,15 @@ require('formatter').setup({
                 stdin = true,
             }
         end
+    },
+    ocaml = {
+        function()
+            return {
+                exe = "ocamlformat",
+                args = {"--name tmp.ml --enable-outside-detected-project -"},
+                stdin = true,
+            }
+        end
     }
   }
   }
