@@ -20,6 +20,7 @@ call plug#end()
 lua require('lsp')
 lua require('tree')
 lua require('format')
+lua require('keymaps')
 "
 let mapleader = " "
 let nmapleader = " "
