@@ -8,7 +8,6 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 
-Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 
 Plug 'SirVer/ultisnips'
