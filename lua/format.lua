@@ -48,6 +48,15 @@ require('formatter').setup({
                 stdin = true,
             }
         end
+    },
+    perl = {
+        function()
+            return {
+                exe = "perltidy",
+                args = {"-"},
+                stdin = true,
+            }
+        end
     }
   }
   }
