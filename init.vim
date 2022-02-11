@@ -67,8 +67,10 @@ nnoremap <C-j> :sp<bar>term<cr><c-w>J:resize15<cr>A
 nnoremap <leader>c :nohlsearch<CR><esc>
 " 格式化
 nnoremap <silent> <leader>f :Format<CR>
-let g:UltiSnipsSnippetDirectories = ['my_snippets']
 :tnoremap <Esc> <C-\><C-n>
+
+
+let g:UltiSnipsSnippetDirectories = ['my_snippets']
 
 
 
