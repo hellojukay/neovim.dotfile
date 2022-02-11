@@ -60,9 +60,12 @@ inoremap [<CR> [<ESC>o]<ESC>ko
 inoremap "<CR> "<ESC>o"<ESC>ko
 "normal 模式的映射"
 nnoremap <leader>r :source $MYVIMRC<CR>
-nnoremap <C-j> :belowright terminal<CR>
+nnoremap <C-j> :sp<bar>term<cr><c-w>J:resize15<cr>A
 "esc 关闭搜索高亮
 nnoremap <leader>c :nohlsearch<CR><esc>
 " 格式化
 nnoremap <silent> <leader>f :Format<CR>
 let g:UltiSnipsSnippetDirectories = ['my_snippets']
+
+
+

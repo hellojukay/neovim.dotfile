@@ -57,3 +57,5 @@ require'lspconfig'.perlpls.setup{}
 require'lspconfig'.tsserver.setup{}
 -- 需要 npm install -g ocaml-language-server
 require'lspconfig'.ocamlls.setup{}
+require'lspconfig'.html.setup{}
+require'lspconfig'.cssls.setup{}
