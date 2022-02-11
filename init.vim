@@ -61,6 +61,8 @@ inoremap "<CR> "<ESC>o"<ESC>ko
 "normal 模式的映射"
 nnoremap <leader>r :source $MYVIMRC<CR>
 nnoremap <C-j> :sp<bar>term<cr><c-w>J:resize15<cr>A
+"快速输入简单命令
+map :: :!
 "esc 关闭搜索高亮
 nnoremap <leader>c :nohlsearch<CR><esc>
 " 格式化
