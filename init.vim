@@ -18,6 +18,10 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 
 Plug 'mhartington/formatter.nvim'
 
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+
 call plug#end()
 " 基础设置
 lua require('lsp')
@@ -72,5 +76,7 @@ nnoremap <silent> <leader>f :Format<CR>
 
 let g:UltiSnipsSnippetDirectories = ['my_snippets']
 
-
+"dart配置
+let g:dart_format_on_save = 1
+let g:lsc_auto_map = v:true
 
