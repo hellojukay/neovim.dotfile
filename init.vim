@@ -22,6 +22,8 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 
+Plug 'godlygeek/tabular'
+
 call plug#end()
 " 基础设置
 lua require('lsp')
